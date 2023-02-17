@@ -1,0 +1,33 @@
+{
+  "name": "opniz-m5unified",
+  "version": "0.1.0",
+  "description": "opniz Arduino library for M5Unified",
+  "keywords": "Opniz,ESP32,M5Stack",
+  "license": "MIT",
+  "homepage": "https://github.com/miso-develop/opniz",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/miso-develop/opniz-arduino-m5unified.git"
+  },
+  "authors": {
+    "name": "Miso Tanaka",
+    "email": "miso.develop@gmail.com"
+  },
+  "platforms": "espressif32",
+  "framework": "arduino",
+  "headers": [
+    "OpnizM5Unified.h",
+    "lib/WiFiConnector.h"
+  ],
+  "dependencies": {
+    "bblanchon/ArduinoJson": "^6.20.0",
+    "links2004/WebSockets": "^2.3.6",
+    "m5stack/M5Unified": "^0.1.4",
+    "fastled/FastLED": "^3.5.0"
+  },
+  "export": {
+    "exclude": [
+      "extras"
+    ]
+  }
+}
