@@ -116,7 +116,7 @@ void Opniz::M5Unified::_constructor() {
 
 
 String Opniz::M5Unified::_getVersion______String_Handler::procedure(JsonArray params) {
-    return "OpnizM5Unified@0.1.0";
+    return "OpnizM5Unified@0.1.1";
 }
 
 

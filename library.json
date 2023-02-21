@@ -1,6 +1,6 @@
 {
   "name": "opniz-m5unified",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "opniz Arduino library for M5Unified",
   "keywords": "Opniz,ESP32,M5Stack",
   "license": "MIT",
