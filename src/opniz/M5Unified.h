@@ -109,6 +109,21 @@ namespace Opniz {
         class _M5_Display_getTextStyle___void___const_TextStyle_Handler : public BaseHandler { public: String name() override { return "_M5.Display.getTextStyle(void):const TextStyle&"; }; String procedure(JsonArray params) override; };
         class _M5_Display_setTextStyle___const_TextStyle___void_Handler : public BaseHandler { public: String name() override { return "_M5.Display.setTextStyle(const TextStyle&):void"; }; String procedure(JsonArray params) override; };
 
+        class _M5_Speaker_config___speaker_config_t___void_speaker_config_t_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.config(speaker_config_t&?):void|speaker_config_t"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_begin___void___bool_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.begin(void):bool"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_end___void___void_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.end(void):void"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_isRunning___void___bool_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.isRunning(void):bool"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_isEnabled___void___bool_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.isEnabled(void):bool"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_isPlaying___uint8_t___size_t_bool_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.isPlaying(uint8_t?):size_t|bool"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_getPlayingChannels___void___size_t_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.getPlayingChannels(void):size_t"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_setVolume___uint8_t___void_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.setVolume(uint8_t):void"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_getVolume___void___uint8_t_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.getVolume(void):uint8_t"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_setAllChannelVolume___uint8_t___void_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.setAllChannelVolume(uint8_t):void"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_setChannelVolume___uint8_t_uint8_t___void_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.setChannelVolume(uint8_t,uint8_t):void"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_getChannelVolume___uint8_t___uint8_t_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.getChannelVolume(uint8_t):uint8_t"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_stop___uint8_t___void_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.stop(uint8_t?):void"; }; String procedure(JsonArray params) override; };
+        class _M5_Speaker_tone___float_uint32_t_int_bool___bool_Handler : public BaseHandler { public: String name() override { return "_M5.Speaker.tone(float,uint32_t,int,bool):bool"; }; String procedure(JsonArray params) override; };
+
 
 
         class _M5_update______void_Emitter : public BaseEmitter { public: boolean canEmit() override; String emit() override; };
